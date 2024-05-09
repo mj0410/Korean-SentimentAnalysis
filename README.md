@@ -1,4 +1,14 @@
-# Best Model : Roberta-small-lstm
+# Sentiment Analysis for Korean comments
+
+### Data
+
+[<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/819e5a07-535c-4e29-9728-b93ad6a75fd2" width="100">](https://aihub.or.kr/)
+
+[한국어 감정 정보가 포함된 단발성 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=270)</br>
+[한국어 감정 정보가 포함된 연속적 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=271)</br>
+[감정 분류를 위한 대화 음성 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=263)
+
+### Best Model : Roberta-small-lstm
 
 [klue/roberta-small](https://huggingface.co/klue/roberta-small)
 
