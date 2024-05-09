@@ -1,24 +1,25 @@
 # Sentiment Analysis for Korean Sentences
 
 ### <sup>Emotion Inference Model of </sup> [<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/13608ed3-b5ef-4113-9d92-0ae64fe98bce" width="120">](https://github.com/pal-ette/iNotePal)
+</br>
 
-### Training Data
+### <sup>:books: Training Data from </sup> [<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/819e5a07-535c-4e29-9728-b93ad6a75fd2" width="100">](https://aihub.or.kr/)
 
-[<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/819e5a07-535c-4e29-9728-b93ad6a75fd2" width="100">](https://aihub.or.kr/)
+> [한국어 감정 정보가 포함된 단발성 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=270)</br>
+> [한국어 감정 정보가 포함된 연속적 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=271)</br>
+> [감정 분류를 위한 대화 음성 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=263)
+</br>
 
-[한국어 감정 정보가 포함된 단발성 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=270)</br>
-[한국어 감정 정보가 포함된 연속적 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=271)</br>
-[감정 분류를 위한 대화 음성 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=263)
-
-### Models
+### :computer: Models
 
 > LSTM </br>
 > KoBERT `conv-7_KoBERT.ipynb` `merged_dataset_10k_KoBERT.ipynb` </br>
 > RoBERTa `roberta_large_5k_samples_7_emotions.ipynb` </br> 
 
-:thumbsup: RoBERTa + LSTM `roberta-small.ipynb` built upon [klue/roberta-small🤗](https://huggingface.co/klue/roberta-small)
+BEST MODEL - RoBERTa + LSTM `roberta-small.ipynb` built upon [klue/roberta-small🤗](https://huggingface.co/klue/roberta-small) </br>
+</br>
 
-### Model Architecture
+### :bricks: Model Architecture
 
 ```mermaid
 graph BT;
@@ -30,8 +31,9 @@ graph BT;
     enc --> lstm;
     lstm --> cla;
 ```
+</br>
 
-### Sentiment Analysis Example
+### :thinking: Sentiment Analysis Example
 
 ```diff
 Input      :  한강에 가면 유독 그런 생각해요. 빠져 죽을까. 빠지면 구출 될까, 한번에 죽을까.
@@ -55,9 +57,9 @@ Prediction :  중립
 Input      :  저게 인간이야? 잘 안 씻어서 냄새까지 나. 짐승도 저것보단 낫겠다.
 Prediction :  혐오
 ```
+</br>
 
-
-### Model Evaluation
+### :chart_with_upwards_trend: Model Evaluation
 
 ##### Loss-Epoch / Accuracy-Epoch Curve
 <img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/894ad2c7-7b63-4313-9155-029a90e41f49" width="700"></br>
