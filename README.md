@@ -8,9 +8,13 @@
 [한국어 감정 정보가 포함된 연속적 대화 데이터셋](https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=271)</br>
 [감정 분류를 위한 대화 음성 데이터셋](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=263)
 
-### Best Model : Roberta-small-lstm
+### Models
 
-[klue/roberta-small](https://huggingface.co/klue/roberta-small)
+> LSTM </br>
+> KoBERT `conv-7_KoBERT.ipynb` `merged_dataset_10k_KoBERT.ipynb` </br>
+> RoBERTa `roberta_large_5k_samples_7_emotions.ipynb` </br> 
+
+:thumbsup: RoBERTa + LSTM `roberta-small.ipynb` built upon [klue/roberta-small🤗](https://huggingface.co/klue/roberta-small)
 
 ### Model Architecture
 
