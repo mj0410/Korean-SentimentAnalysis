@@ -1,6 +1,8 @@
-# Sentiment Analysis for Korean comments
+# Sentiment Analysis for Korean Sentences
 
-### Data
+### <sup>Emotion Inference Model of </sup> [<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/13608ed3-b5ef-4113-9d92-0ae64fe98bce" width="120">](https://github.com/pal-ette/iNotePal)
+
+### Training Data
 
 [<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/819e5a07-535c-4e29-9728-b93ad6a75fd2" width="100">](https://aihub.or.kr/)
 
@@ -57,7 +59,9 @@ Prediction :  혐오
 
 ### Model Evaluation
 
+##### Loss-Epoch / Accuracy-Epoch Curve
 <img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/894ad2c7-7b63-4313-9155-029a90e41f49" width="700"></br>
 
+##### Confusion Matrix / f1-score / recall / precision per Emotion
 <img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/a7329122-3d2c-4e4a-968c-bf39aefdf8b3" width="350">
 <img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/7f7491e2-74a1-4b10-ae88-71f0e2dd6d09" width="350">
