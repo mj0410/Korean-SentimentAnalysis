@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Sentiment Analysis for Korean Sentences
 
 ### <sup>Emotion Inference Model of </sup> [<img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/13608ed3-b5ef-4113-9d92-0ae64fe98bce" width="120">](https://github.com/pal-ette/iNotePal)
@@ -20,6 +21,13 @@ BEST MODEL - RoBERTa + LSTM `roberta-small.ipynb` built upon [klue/roberta-small
 </br>
 
 ### :bricks: Model Architecture
+=======
+# Roberta-small-lstm
+
+[klue/roberta-small](https://huggingface.co/klue/roberta-small)
+
+### Model Architecture
+>>>>>>> Stashed changes
 
 ```mermaid
 graph BT;
@@ -31,9 +39,14 @@ graph BT;
     enc --> lstm;
     lstm --> cla;
 ```
+<<<<<<< Updated upstream
 </br>
 
 ### :thinking: Sentiment Analysis Example
+=======
+
+### Sentiment Analysis Example
+>>>>>>> Stashed changes
 
 ```diff
 Input      :  한강에 가면 유독 그런 생각해요. 빠져 죽을까. 빠지면 구출 될까, 한번에 죽을까.
@@ -57,6 +70,7 @@ Prediction :  중립
 Input      :  저게 인간이야? 잘 안 씻어서 냄새까지 나. 짐승도 저것보단 낫겠다.
 Prediction :  혐오
 ```
+<<<<<<< Updated upstream
 </br>
 
 ### :chart_with_upwards_trend: Model Evaluation
@@ -67,3 +81,12 @@ Prediction :  혐오
 ##### Confusion Matrix / f1-score / recall / precision per Emotion
 <img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/a7329122-3d2c-4e4a-968c-bf39aefdf8b3" width="350">
 <img src="https://github.com/mj0410/Korean-SentimentAnalysis/assets/66175878/7f7491e2-74a1-4b10-ae88-71f0e2dd6d09" width="350">
+=======
+
+
+### Model Evaluation
+
+<img src="https://github.com/pal-ette/iNotePal/assets/66175878/6d235826-5f81-4acd-9fcb-562f2113c288" width="400">
+
+<img src="https://github.com/pal-ette/iNotePal/assets/66175878/3c77537d-fb19-4050-bd62-9c2a1c7e509b" width="400">
+>>>>>>> Stashed changes
